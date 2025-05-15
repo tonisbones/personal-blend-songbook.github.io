@@ -38,6 +38,7 @@
         <h3 id="links">
             {% for link in song.links %}
             <button><a href={{links[link]}} target="_blank">{{link|title}}</a></button>
+            {% endfor %}
         </h3>
         <h3><button><a href="../index.html">Back to list of songs</a></button></h3>
     </div>

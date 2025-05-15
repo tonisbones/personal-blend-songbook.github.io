@@ -1,0 +1,63 @@
+{
+    "title": "Taxi",
+    "artist": "Personal Blend",
+    "album_name": "Heavy Currents",
+    "links": {
+        "youtube": "https://www.youtube.com/watch?v=JTI_uMem80A",
+        "spotify": "https://open.spotify.com/track/65zBX1hdRM6o6syci9w91S"
+    },
+    "progressions": {
+        "main": "A . . . G . . .",
+        "bridge": "D . A . e . G . "
+    },
+    "layout": [
+        {
+            "name": "intro",
+            "progression": "main",
+            "notes": "Starts with a drum fill",
+            "lyrics": ""
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Taxi taxi. Won't you come and take me away?"
+        },
+        {
+            "name": "verse1",
+            "progression": "main",
+            "notes": "Joe",
+            "lyrics": "Driving down 590 south..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Taxi taxi. Won't you come and take me away?"
+        },
+        {
+            "name": "verse2",
+            "progression": "main",
+            "notes": "Jimmy. Second time around different drum feel",
+            "lyrics": "Want to go. Say goodbye"
+        },
+        {
+            "name": "bridge",
+            "progression": "bridge",
+            "notes": "123 123 12 counting",
+            "lyrics": "Get out get out?"
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Taxi taxi. Won't you come and take me away?"
+        },
+        {
+            "name": "outro",
+            "progression": "main",
+            "notes": "",
+            "lyrics": ""
+        }
+    ]
+}

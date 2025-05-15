@@ -1,0 +1,88 @@
+{
+    "title": "Ganja Weed",
+    "artist": "Personal Blend",
+    "album_name": "Inhale & Release",
+    "links": {
+        "youtube": "https://www.youtube.com/watch?v=nxd0we0RR-E",
+        "spotify": "https://open.spotify.com/track/124r9v2RWnR15TooKhkGl0"
+    },
+    "progressions": {
+        "main": "D . C e",
+        "prechorus": "G . . . A . . .",
+        "chorus": "D . . . C . G ."
+    },
+    "layout": [
+        {
+            "name": "intro",
+            "progression": "main",
+            "notes": "Starts with guitar chucks",
+            "lyrics": ""
+        },
+        {
+            "name": "instrumental",
+            "progression": "main",
+            "notes": "",
+            "lyrics": ""
+        },
+        {
+            "name": "verse1a",
+            "progression": "main",
+            "notes": "Jimmy",
+            "lyrics": "1 2 get up in the morning..."
+        },
+        {
+            "name": "verse1b",
+            "progression": "main",
+            "notes": "Joe",
+            "lyrics": "Ganja.. burn one down..."
+        },
+        {
+            "name": "prechorus",
+            "progression": "prechorus",
+            "notes": "",
+            "lyrics": "I got this ganja..."
+        },
+        {
+            "name": "chorus",
+            "progression": "chorus",
+            "notes": "",
+            "lyrics": "Ganja! Ganja weed!"
+        },
+        {
+            "name": "instrumental",
+            "progression": "main",
+            "notes": "",
+            "lyrics": ""
+        },
+        {
+            "name": "verse2a",
+            "progression": "main",
+            "notes": "Jimmy. Doubled verse1a",
+            "lyrics": "1 2 get up in the morning..."
+        },
+        {
+            "name": "verse2b",
+            "progression": "main",
+            "notes": "Joe. Doubled verse1b",
+            "lyrics": "Ganja.. burn one down..."
+        },
+        {
+            "name": "prechorus",
+            "progression": "prechorus",
+            "notes": "",
+            "lyrics": "I got this ganja..."
+        },
+        {
+            "name": "chorus",
+            "progression": "chorus",
+            "notes": "",
+            "lyrics": "Ganja! Ganja weed!"
+        },
+        {
+            "name": "instrumental",
+            "progression": "main",
+            "notes": "",
+            "lyrics": ""
+        }
+    ]
+}

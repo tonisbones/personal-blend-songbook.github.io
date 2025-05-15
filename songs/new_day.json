@@ -1,0 +1,77 @@
+{
+    "title": "New Day",
+    "artist": "Personal Blend",
+    "album_name": "Heavy Currents",
+    "links": {
+        "youtube": "https://www.youtube.com/watch?v=Zu04woBxJXM",
+        "spotify": "https://open.spotify.com/track/40KGs1MLWvRa9V61yV69Zp"
+    },
+    "progressions": {
+        "chorus": "A . c# . G . D .",
+        "verse": "A . f# . c# . D E",
+        "instrumental": "A . c# . G . b .",
+        "bridge": "f# . EE . D . . E"
+    },
+    "layout": [
+        {
+            "name": "chorus",
+            "progression": "chorus",
+            "notes": "Starts with a drum fill",
+            "lyrics": "I'm looking to find a way..."
+        },
+        {
+            "name": "instrumental",
+            "progression": "instrumental",
+            "notes": "",
+            "lyrics": ""
+        },
+        {
+            "name": "verse1",
+            "progression": "verse",
+            "notes": "",
+            "lyrics": "I'm always looking forward down the line..."
+        },
+        {
+            "name": "chorus",
+            "progression": "chorus",
+            "notes": "",
+            "lyrics": "I'm looking to find a way..."
+        },
+        {
+            "name": "instrumental",
+            "progression": "instrumental",
+            "notes": "",
+            "lyrics": ""
+        },
+        {
+            "name": "verse2",
+            "progression": "verse",
+            "notes": "",
+            "lyrics": "The flow of the music..."
+        },
+        {
+            "name": "bridge",
+            "progression": "bridge",
+            "notes": "",
+            "lyrics": "Wondering..."
+        },
+        {
+            "name": "break",
+            "progression": "verse",
+            "notes": "instrumental break",
+            "lyrics": ""
+        },
+        {
+            "name": "chorus",
+            "progression": "chorus",
+            "notes": "",
+            "lyrics": "I'm looking to find a way..."
+        },
+        {
+            "name": "outro",
+            "progression": "instrumental",
+            "notes": "",
+            "lyrics": ""
+        }
+    ]
+}

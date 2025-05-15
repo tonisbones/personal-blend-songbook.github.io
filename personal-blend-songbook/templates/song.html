@@ -37,7 +37,7 @@
         <h2 id="album">{{song.album_name}}</h2>
         <h3 id="links">
             {% for link in song.links %}
-            <button><a href={{links[link]}} target="_blank">{{link|title}}</a></button>
+            <button><a href={{song.links[link]}} target="_blank">{{link|title}}</a></button>
             {% endfor %}
         </h3>
         <h3><button><a href="../index.html">Back to list of songs</a></button></h3>
@@ -49,8 +49,14 @@
                 <div class="section">
                     <p>{{section.name}}</p>
                     <p>Chords- {{song.progressions[section.progression]}}</p>
-                    <p>Lyrics- {{section.lyrics}}</p>
-                    <p>Notes- {{section.notes}}</p>
+                    <details>
+                        <summary>Lyrics</summary>
+                        <p>{{section.lyrics}}</p>
+                    </details>
+                    <details>
+                        <summary>Notes</summary>
+                        <p>{{section.notes}}</p>
+                    </details>
                 </div>
             </li>
             {% endfor %}

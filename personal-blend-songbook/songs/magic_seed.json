@@ -1,0 +1,74 @@
+{
+    "title": "Magic Seed",
+    "artist": "Personal Blend",
+    "album_name": "Ride",
+    "links": {
+        "youtube": "https://www.youtube.com/watch?v=IbPpqNzNo10",
+        "spotify": "https://open.spotify.com/track/0Rlie9PgzeV1AsZNQHNG46"
+    },
+    "progressions": {
+        "main": "F# . F# . g# . g# ."
+    },
+    "layout": [
+        {
+            "name": "intro",
+            "progression": "main",
+            "notes": "Starts with a drum fill into hits. F# F# . . g#g#g# . F# F# . . g# g# . . X2",
+            "lyrics": ""
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Life is a blessing..."
+        },
+        {
+            "name": "verse1",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "I step back to my roots..."
+        },
+        {
+            "name": "instrumental",
+            "progression": "main",
+            "notes": "",
+            "lyrics": ""
+        },
+        {
+            "name": "magic seed",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Magic seed. It's all I need..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Life is a blessing..."
+        },
+        {
+            "name": "verse2",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Round up the crew quarter after 2..."
+        },
+        {
+            "name": "magic seed",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Magic seed. It's all I need..."
+        },
+        {
+            "name": "instrumental",
+            "progression": "main",
+            "notes": "Horn feature",
+            "lyrics": ""
+        },
+        {
+            "name": "outro",
+            "progression": "main",
+            "notes": "Same hits as intro. F# F# . . G#G#G# . F# F# . . G# G# . . X2",
+            "lyrics": ""
+        }
+    ]
+}

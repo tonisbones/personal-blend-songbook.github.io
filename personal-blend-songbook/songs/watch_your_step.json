@@ -1,0 +1,75 @@
+{
+    "title": "Watch Your Step",
+    "artist": "Personal Blend",
+    "album_name": "Inhale & Release",
+    "links": {
+        "youtube": "https://www.youtube.com/watch?v=BHgo7exVKE8",
+        "spotify": "https://open.spotify.com/track/08ur24GL5ahPyRAIO1ByaA"
+    },
+    "progressions": {
+        "main": "c# . . . G# . . .",
+        "bridge": "A . G# . c# . . . A . G# . c# . B E"
+    },
+    "layout": [
+        {
+            "name": "intro",
+            "progression": "main",
+            "notes": "Starts with a drum 4 count.",
+            "lyrics": ""
+        },
+        {
+            "name": "horns",
+            "progression": "main",
+            "notes": "Horn line feature",
+            "lyrics": ""
+        },
+        {
+            "name": "verse1",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Yelling out people can you hear me..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "You better watch your step..."
+        },
+        {
+            "name": "horns",
+            "progression": "main",
+            "notes": "Horn line feature",
+            "lyrics": ""
+        },
+        {
+            "name": "verse2",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Sometimes I spend hours staring..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "You better watch your step..."
+        },
+        {
+            "name": "bridge",
+            "progression": "bridge",
+            "notes": "",
+            "lyrics": ""
+        },
+        {
+            "name": "breakdown",
+            "progression": "main",
+            "notes": "Dueling guitars with quiet band buildup",
+            "lyrics": ""
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "You better watch your step..."
+        }
+    ]
+}

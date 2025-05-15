@@ -16,10 +16,6 @@
         .banner * {
             margin: 2px;
         }
-        a {
-            border: 1px solid black;
-            background-color: cadetblue;
-        }
         #layout {
             display: flex;
             flex-direction: column;
@@ -36,16 +32,17 @@
 
 <body>
     <div class="banner">
-        <h2 id="title" title="Title">{{song.title}}</h2>
-        <h3 id="artist-album">
-            <span id="artist" title="Artist">{{song.artist}}</span>
+        <h1>
+            <span id="title">{{song.title}}</span> - <span id="artist">{{song.artist}}</span>
+        </h1>
+        <h2>
             <span id="album" title="Album">{{song.album_name}}</span>
-        </h3>
+        </h2>
         <h3 id="links">
             <button><a href={{song.links.youtube}} target="_blank">YouTube</a></button>
             <button><a href={{song.links.spotify}} target="_blank">Spotify</a></button>
         </h3>
-        <h3><button><a href="index.html">Back to list of songs</a></button></h3>
+        <h3><button><a href="../index.html">Back to list of songs</a></button></h3>
     </div>
     <div class="song-details">
         <ol id="layout">

@@ -32,15 +32,12 @@
 
 <body>
     <div class="banner">
-        <h1>
-            <span id="title">{{song.title}}</span> - <span id="artist">{{song.artist}}</span>
-        </h1>
-        <h2>
-            <span id="album" title="Album">{{song.album_name}}</span>
-        </h2>
+        <h2 id="title">{{song.title}}</h2>
+        <h2 id="artist">{{song.artist}}</h2>
+        <h2 id="album">{{song.album_name}}</h2>
         <h3 id="links">
-            <button><a href={{song.links.youtube}} target="_blank">YouTube</a></button>
-            <button><a href={{song.links.spotify}} target="_blank">Spotify</a></button>
+            {% for link in song.links %}
+            <button><a href={{links[link]}} target="_blank">{{link|title}}</a></button>
         </h3>
         <h3><button><a href="../index.html">Back to list of songs</a></button></h3>
     </div>

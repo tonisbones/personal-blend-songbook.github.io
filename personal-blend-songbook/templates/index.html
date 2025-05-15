@@ -23,6 +23,15 @@
             display: flex;
             justify-content: center;
         }
+        .song-list a {
+            padding: 12px 36px;
+            background-color: #339933;
+            color: black;
+            border-radius: 20px;
+            margin: 4px;
+            text-decoration: none;
+            box-shadow: 4px 6px #115511;
+        }
     </style>
 </head>
 
@@ -40,7 +49,7 @@
         <ul class="song-list">
             {% for song in song_list %}
             <li>
-                <button><a href={{"html/" + song + ".html"}}>{{song|replace("_", " ")|title}}</a></button>
+                <a href={{"html/" + song + ".html"}}>{{song|replace("_", " ")|title}}</a>
             </li>
             {% endfor %}
         </ul>

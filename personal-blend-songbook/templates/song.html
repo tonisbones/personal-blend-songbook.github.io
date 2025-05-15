@@ -6,6 +6,8 @@
     <title>{{song.title}} - Personal Blend Songbook</title>
     <style>
         .banner {
+            margin: 24px 0px 4px 0px;
+            padding-bottom: 18px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -14,7 +16,7 @@
             gap: 2px;
         }
         .banner * {
-            margin: 2px;
+            margin: 1px;
         }
         #layout {
             display: flex;
@@ -31,6 +33,19 @@
         details > summary {
             cursor: pointer;
         }
+        #links {
+            margin-bottom: 8px;
+        }
+        a {
+            padding: 6px;
+            margin: 2px;
+            text-decoration: none;
+            background-color: #339933;
+            border-radius: 16px;
+            font-size: 14px;
+            box-shadow: 2px 4px #115511;
+            color: black;
+        }
     </style>
 </head>
 
@@ -38,13 +53,13 @@
     <div class="banner">
         <h2 id="title">{{song.title}}</h2>
         <h2 id="artist">{{song.artist}}</h2>
-        <h2 id="album">{{song.album_name}}</h2>
+        <h3 id="album">{{song.album_name}}</h3>
         <h3 id="links">
             {% for link in song.links %}
-            <button><a href={{song.links[link]}} target="_blank">{{link|title}}</a></button>
+            <a href={{song.links[link]}} target="_blank">{{link|title}}</a>
             {% endfor %}
         </h3>
-        <h3><button><a href="../index.html">Back to list of songs</a></button></h3>
+        <h3><a href="../index.html">Go Back to List</a></h3>
     </div>
     <div class="song-details">
         <ol id="layout">

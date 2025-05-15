@@ -14,7 +14,7 @@
     </div>
     <ul>
         {% for song in song_list %}
-        <li><a href={{song + ".html"}}>{{song|replace("_", " ")|title}}</a></li>
+        <li><a href={{"html/" + song + ".html"}}>{{song|replace("_", " ")|title}}</a></li>
         {% endfor %}
     </ul>
     

@@ -10,7 +10,7 @@ env = Environment(
 def generate_index(song_list):
     index = env.get_template("index.html")
     index_html = index.render(song_list=song_list)
-    with open("html/index.html", 'w') as new_html:
+    with open("index.html", 'w') as new_html:
         new_html.write(index_html)
     new_html.close()
 

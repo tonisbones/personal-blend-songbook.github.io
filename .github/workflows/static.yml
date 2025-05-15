@@ -37,8 +37,6 @@ jobs:
         run: pip install -r requirements.txt
       - name: generate site
         run: python personal-blend-songbook/personal-blend-songbook.py
-      - name: sanity check
-        run: ls
       - name: clean up
         run: rm -rf personal-blend-songbook/__pycache__ venv/
       - name: Upload artifacts

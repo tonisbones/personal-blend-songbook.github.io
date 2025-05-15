@@ -4,7 +4,8 @@
     "album_name": "Ride",
     "links": {
         "youtube": "https://www.youtube.com/watch?v=IbPpqNzNo10",
-        "spotify": "https://open.spotify.com/track/0Rlie9PgzeV1AsZNQHNG46"
+        "spotify": "https://open.spotify.com/track/0Rlie9PgzeV1AsZNQHNG46",
+        "apple": "https://music.apple.com/us/song/magic-seed/1336526031"
     },
     "progressions": {
         "main": "F# . F# . g# . g# ."

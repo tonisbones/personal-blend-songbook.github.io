@@ -36,7 +36,7 @@ jobs:
       - name: install deps
         run: pip install -r requirements.txt
       - name: generate site
-        run: python personal-blend-songbook.github.io/personal-blend-songbook/personal-blend-songbook.py
+        run: python personal-blend-songbook/personal-blend-songbook.py
   deploy:
     environment:
       name: github-pages

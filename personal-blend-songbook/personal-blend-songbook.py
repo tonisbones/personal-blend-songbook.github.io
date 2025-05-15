@@ -17,7 +17,7 @@ def generate_index(song_list):
 
 
 if __name__ == "__main__":
-    song_list = sorted([x for x in os.listdir("songs") if x.endswith(".json")])
+    song_list = sorted([x.split(".")[0] for x in os.listdir("songs") if x.endswith(".json")])
     for song_name in song_list:
         with open(os.path.join("songs", song_name + ".json"), 'r') as song_json:
             my_song = json.load(song_json)

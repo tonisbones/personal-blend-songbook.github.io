@@ -27,6 +27,9 @@
             border-radius: 5px;
             padding: 4px;
         }
+        details > summary {
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -49,11 +52,11 @@
                 <div class="section">
                     <p>{{section.name}}</p>
                     <p>Chords- {{song.progressions[section.progression]}}</p>
-                    <details>
+                    <details open>
                         <summary>Lyrics</summary>
                         <p>{{section.lyrics}}</p>
                     </details>
-                    <details>
+                    <details open>
                         <summary>Notes</summary>
                         <p>{{section.notes}}</p>
                     </details>

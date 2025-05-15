@@ -1,0 +1,74 @@
+{
+    "title": "Hello, Hello",
+    "artist": "Personal Blend",
+    "album_name": "Inhale & Release",
+    "links": {
+        "youtube": "",
+        "spotify": "https://open.spotify.com/track/1RYUaD1BvU1bpM9Thp1Vc1"
+    },
+    "progressions": {
+        "main": "A A D G"
+    },
+    "layout": [
+        {
+            "name": "intro",
+            "progression": "main",
+            "notes": "Starts with guitar lick. Ends on whole band hitting G",
+            "lyrics": ""
+        },
+        {
+            "name": "horns",
+            "progression": "main",
+            "notes": "Horn line feature",
+            "lyrics": ""
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Hello hello said how do you do..."
+        },
+        {
+            "name": "verse1",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "It's a bright and sunny day..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Hello hello said how do you do..."
+        },
+        {
+            "name": "horns",
+            "progression": "main",
+            "notes": "Horn line feature",
+            "lyrics": ""
+        },
+        {
+            "name": "verse2",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "These mountains we climb make us feel divine..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Hello hello said how do you do..."
+        },
+        {
+            "name": "horns",
+            "progression": "main",
+            "notes": "Horn line feature",
+            "lyrics": ""
+        },
+        {
+            "name": "outro",
+            "progression": "main",
+            "notes": "Everyone in unison on the guitar lick",
+            "lyrics": ""
+        }
+    ]
+}

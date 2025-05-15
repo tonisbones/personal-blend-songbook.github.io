@@ -42,18 +42,20 @@
             <a href={{song.links.spotify}} target="_blank">Spotify</a>
         </h4>
     </div>
-    <ol id="layout">
-        {% for section in song.layout %}
-        <li>
-            <div class="section">
-                <p>{{section.name}}</p>
-                <p>Chords- {{song.progressions[section.progression]}}</p>
-                <p>Lyrics- {{section.lyrics}}</p>
-                <p>Notes- {{section.notes}}</p>
-            </div>
-        </li>
-        {% endfor %}
-    </ol>
+    <div class="song-details">
+        <ol id="layout">
+            {% for section in song.layout %}
+            <li>
+                <div class="section">
+                    <p>{{section.name}}</p>
+                    <p>Chords- {{song.progressions[section.progression]}}</p>
+                    <p>Lyrics- {{section.lyrics}}</p>
+                    <p>Notes- {{section.notes}}</p>
+                </div>
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
 </body>
 
 </html>

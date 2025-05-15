@@ -22,12 +22,27 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions.setup-python@v5
+      - name: setup venv
+        run: python -m venv venv
+      - name: enter env
+        run: source venv/bin/activate
+      - name: install deps
+        run: pip install -r requirements.txt
+      - name: generate site
+        run: python personal-blend-songbook.github.io/personal-blend-songbook/personal-blend-songbook.py
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Checkout
         uses: actions/checkout@v4

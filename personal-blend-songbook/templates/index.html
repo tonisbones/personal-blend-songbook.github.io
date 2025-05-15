@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Blend Songbook</title>
     <style>
-
+        ul {
+            list-style: none;
+            padding: 0px;
+            width: 100%;
+        }
     </style>
 </head>
 
@@ -13,11 +17,15 @@
     <div class="banner">
         <h2>Personal Blend Songbook</h2>
     </div>
-    <ul>
-        {% for song in song_list %}
-        <li><a href={{"html/" + song + ".html"}}>{{song|replace("_", " ")|title}}</a></li>
-        {% endfor %}
-    </ul>
+    <div class="song-list-container">
+        <ul class="song-list">
+            {% for song in song_list %}
+            <li>
+                <button><a href={{"html/" + song + ".html"}}>{{song|replace("_", " ")|title}}</a></button>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
     
 </body>
 

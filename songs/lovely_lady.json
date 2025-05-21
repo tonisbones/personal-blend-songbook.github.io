@@ -1,0 +1,71 @@
+{
+    "title": "Lovely Lady",
+    "artist": "Personal Blend",
+    "album_name": "Inhale & Release",
+    "links": {
+        "youtube": "https://www.youtube.com/watch?v=5d35QZe2s7I",
+        "spotify": "https://open.spotify.com/track/1PJVx4nqhi0Ogy40j5IVYM",
+        "apple": "https://music.apple.com/us/song/lovely-lady/1669058125"
+    },
+    "progressions": {
+        "main": "C . a . F . G .",
+        "chorus": "F . . . G . . . F . . . C . G . ",
+        "outro": "F . . . C . G ."
+    },
+    "layout": [
+        {
+            "name": "intro",
+            "progression": "main",
+            "notes": "Starts with drum beat. Everyone joins on second part",
+            "lyrics": ""
+        },
+        {
+            "name": "verse1a",
+            "progression": "main",
+            "notes": "Halfway through draw out the chords",
+            "lyrics": "Her love ain't like a typical emotion..."
+        },
+        {
+            "name": "verse1b",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Here we are in an orderly fashion..."
+        },
+        {
+            "name": "chorus",
+            "progression": "chorus",
+            "notes": "",
+            "lyrics": "Lovely lady when I knew felt ya..."
+        },
+        {
+            "name": "verse2a",
+            "progression": "main",
+            "notes": "Halfway through draw out the chords",
+            "lyrics": "Her love ain't like a typical emotion..."
+        },
+        {
+            "name": "verse2b",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Here we are in an orderly fashion..."
+        },
+        {
+            "name": "chorus",
+            "progression": "chorus",
+            "notes": "Second half no drums with horn swells",
+            "lyrics": "Lovely lady when I knew felt ya..."
+        },
+        {
+            "name": "chorus",
+            "progression": "chorus",
+            "notes": "Second half no drums with horn swells",
+            "lyrics": "Lovely lady when I knew felt ya..."
+        },
+        {
+            "name": "outro",
+            "progression": "outro",
+            "notes": "",
+            "lyrics": "Joe adlibs. End on C G F"
+        }
+    ]
+}

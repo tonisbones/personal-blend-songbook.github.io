@@ -1,0 +1,64 @@
+{
+    "title": "Midnight Rendezvous",
+    "artist": "Personal Blend",
+    "album_name": "Heavy Currents",
+    "links": {
+        "youtube": "https://www.youtube.com/watch?v=LkcLmSe1ats",
+        "spotify": "https://open.spotify.com/track/3pmqDh8Vlx0Di78dPt7hkg",
+        "apple": "https://music.apple.com/us/song/midnight-rendezvous/1462269404"
+    },
+    "progressions": {
+        "main": "e . . . D . . . A . . . D . . .",
+        "chorus": "G . a . e . D ."
+    },
+    "layout": [
+        {
+            "name": "intro",
+            "progression": "main",
+            "notes": "Starts with drum beat. Bands filters in.",
+            "lyrics": ""
+        },
+        {
+            "name": "verse1",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "So with your beauty magnified I can't seem to get you off my mind..."
+        },
+        {
+            "name": "chorus",
+            "progression": "chorus",
+            "notes": "",
+            "lyrics": "Let's meet, midnight rendezvous..."
+        },
+        {
+            "name": "instrumental",
+            "progression": "main",
+            "notes": "Horn line feature. Adlibs by Joe",
+            "lyrics": ""
+        },
+        {
+            "name": "verse2",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "And now I've come to realize as the seasons change..."
+        },
+        {
+            "name": "chorus",
+            "progression": "chorus",
+            "notes": "",
+            "lyrics": "Let's meet, midnight rendezvous..."
+        },
+        {
+            "name": "breakdown",
+            "progression": "main",
+            "notes": "Drawn out chords. Quiet buildup. Second half is triplet feel for drums and bass with guitar solo",
+            "lyrics": ""
+        },
+        {
+            "name": "chorus",
+            "progression": "chorus",
+            "notes": "First half is quiet with only Joe singing",
+            "lyrics": "Let's meet, midnight rendezvous..."
+        }
+    ]
+}

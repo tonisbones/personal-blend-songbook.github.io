@@ -1,0 +1,63 @@
+{
+    "title": "Dreamer",
+    "artist": "Personal Blend",
+    "album_name": "Heavy Currents",
+    "links": {
+        "youtube": "https://www.youtube.com/watch?v=86BgfjiEqTU",
+        "spotify": "https://open.spotify.com/track/5GQOL4aMvMFe19apj7w5IF",
+        "apple": "https://music.apple.com/us/song/dreamer/1462269406"
+    },
+    "progressions": {
+        "main": "e . . . C . . ."
+    },
+    "layout": [
+        {
+            "name": "intro",
+            "progression": "main",
+            "notes": "Starts with drum beat. Bands filters in",
+            "lyrics": ""
+        },
+        {
+            "name": "verse",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "I get my love from my mother..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Can you hear the sound?..."
+        },
+        {
+            "name": "instrumental",
+            "progression": "main",
+            "notes": "Horn line",
+            "lyrics": ""
+        },
+        {
+            "name": "verse",
+            "progression": "main",
+            "notes": "Quiet in first half, back to full band second half",
+            "lyrics": "Give the light to the new moon..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Can you hear the sound?..."
+        },
+        {
+            "name": "instrumental",
+            "progression": "main",
+            "notes": "Horn line",
+            "lyrics": ""
+        },
+        {
+            "name": "outro",
+            "progression": "main",
+            "notes": "A bit slower/stripped down",
+            "lyrics": ""
+        }
+    ]
+}

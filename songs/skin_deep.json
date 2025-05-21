@@ -1,0 +1,52 @@
+{
+    "title": "Skin Deep",
+    "artist": "Personal Blend",
+    "album_name": "Inhale & Release",
+    "links": {
+        "youtube": "https://www.youtube.com/watch?v=fBKfVWSlcaw",
+        "spotify": "https://open.spotify.com/track/2FGKCWdMNP4GA7pzbrWKH2",
+        "apple": "https://music.apple.com/us/song/skin-deep/1669058124"
+    },
+    "progressions": {
+        "main": "g . . . C . . .",
+        "bridge": "g . . . C . . . g . . . C . . . g a Bb d C . . . g a Bb d C . . ."
+    },
+    "layout": [
+        {
+            "name": "intro",
+            "progression": "main",
+            "notes": "Starts with horns on melody followed by drums then the whole band hits",
+            "lyrics": ""
+        },
+        {
+            "name": "verse1",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "So when the worst of the world it is draggin me low..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "When I communicate to you..."
+        },
+        {
+            "name": "breakdown",
+            "progression": "main",
+            "notes": "Quiet down and build up. Drums change up. Horns and dueling guitars halfway through",
+            "lyrics": ""
+        },
+        {
+            "name": "bridge",
+            "progression": "bridge",
+            "notes": "",
+            "lyrics": "Because you're always at the forefront of my mind..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "When I communicate to you..."
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "title": "No Delay",
+    "artist": "Personal Blend",
+    "album_name": "Heavy Currents",
+    "links": {
+        "youtube": "https://www.youtube.com/watch?v=3lA_mYszCv8",
+        "spotify": "https://open.spotify.com/track/3yxR7Ncy5DZcDkMcadKmVi",
+        "apple": "https://music.apple.com/us/song/no-delay/1462269408"
+    },
+    "progressions": {
+        "main": "A . c# . D . E D",
+        "bridge": "E . . . D . . ."
+    },
+    "layout": [
+        {
+            "name": "intro",
+            "progression": "main",
+            "notes": "Starts with a drum fill. Horn feature",
+            "lyrics": ""
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Take a chance now..."
+        },
+        {
+            "name": "verse",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Special feelings cause if you feel them..."
+        },
+        {
+            "name": "horns",
+            "progression": "main",
+            "notes": "",
+            "lyrics": ""
+        },
+        {
+            "name": "verse",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "There's no time to waste..."
+        },
+        {
+            "name": "bridge",
+            "progression": "bridge",
+            "notes": "",
+            "lyrics": "adlibs - ends with Baby won't you be mine"
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Take a chance now..."
+        },
+        {
+            "name": "bridge",
+            "progression": "bridge",
+            "notes": "",
+            "lyrics": "adlibs - ends with Baby won't you be mine"
+        },
+        {
+            "name": "synth",
+            "progression": "main",
+            "notes": "synth line over the top",
+            "lyrics": "Baby won't you be mine"
+        },
+        {
+            "name": "horns",
+            "progression": "main",
+            "notes": "horn line with synth line. Rest of band is quiet",
+            "lyrics": "Ends with Baby won't you be mine"
+        }
+    ]
+}

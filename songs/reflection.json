@@ -1,0 +1,71 @@
+{
+    "title": "Reflection",
+    "artist": "Personal Blend",
+    "album_name": "Heavy Currents",
+    "links": {
+        "youtube": "https://www.youtube.com/watch?v=9PGDeFnCpDY",
+        "spotify": "https://open.spotify.com/track/1o9TxDqFX8eIlFQUcMqzV0",
+        "apple": "https://music.apple.com/us/song/reflection/1462269405"
+    },
+    "progressions": {
+        "instrumental": "G . . . G . . . G . . . FF  G .",
+        "main": "G . C .",
+        "bridge": "D . A . e . G . "
+    },
+    "layout": [
+        {
+            "name": "intro",
+            "progression": "instrumental",
+            "notes": "Starts with a guitar melody. Everyone hits the F F G",
+            "lyrics": ""
+        },
+        {
+            "name": "horns",
+            "progression": "main",
+            "notes": "",
+            "lyrics": ""
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "See I'm standing round this corner again..."
+        },
+        {
+            "name": "verse",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Sitting up in my room..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "See I'm standing round this corner again..."
+        },
+        {
+            "name": "horns",
+            "progression": "main",
+            "notes": "",
+            "lyrics": ""
+        },
+        {
+            "name": "verse",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Ready to make the moves..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "See I'm standing round this corner again..."
+        },
+        {
+            "name": "outro",
+            "progression": "instrumental",
+            "notes": "Guitar lick to the end.",
+            "lyrics": ""
+        }
+    ]
+}

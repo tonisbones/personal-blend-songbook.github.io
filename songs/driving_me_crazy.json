@@ -1,0 +1,75 @@
+{
+    "title": "Driving me Crazy",
+    "artist": "Personal Blend",
+    "album_name": "Heavy Currents",
+    "links": {
+        "youtube": "https://www.youtube.com/watch?v=xWxttz19EqQ",
+        "spotify": "https://open.spotify.com/track/3yxR7Ncy5DZcDkMcadKmVi",
+        "apple": "https://music.apple.com/us/song/no-delay/1462269408"
+    },
+    "progressions": {
+        "main": "D . . . e . . . f# . . . e . . ."
+    },
+    "layout": [
+        {
+            "name": "intro",
+            "progression": "main",
+            "notes": "Starts with a drum fill.",
+            "lyrics": ""
+        },
+        {
+            "name": "verse",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "From the very first time..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Cause baby you're driving me crazy..."
+        },
+        {
+            "name": "horns",
+            "progression": "main",
+            "notes": "",
+            "lyrics": ""
+        },
+        {
+            "name": "verse",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "When we take our time..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "Half chorus",
+            "lyrics": "Cause baby you're driving me crazy..."
+        },
+        {
+            "name": "guitar solo",
+            "progression": "main",
+            "notes": "",
+            "lyrics": ""
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Cause baby you're driving me crazy..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "bring down everything. held out chords",
+            "lyrics": "Cause baby you're driving me crazy..."
+        },
+        {
+            "name": "instrumental",
+            "progression": "main",
+            "notes": "",
+            "lyrics": ""
+        }
+    ]
+}

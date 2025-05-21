@@ -1,0 +1,87 @@
+{
+    "title": "Destruction",
+    "artist": "Personal Blend",
+    "album_name": "Heavy Currents",
+    "links": {
+        "youtube": "https://www.youtube.com/watch?v=UVB9aEGW3zw",
+        "spotify": "https://open.spotify.com/track/6TanNdq4PL5JllsdRTjzbM",
+        "apple": "https://music.apple.com/us/song/destruction/1462269410"
+    },
+    "progressions": {
+        "main": "d . g . e . Bb A"
+    },
+    "layout": [
+        {
+            "name": "intro",
+            "progression": "instrumental",
+            "notes": "starts with a drum fill into held out chords",
+            "lyrics": ""
+        },
+        {
+            "name": "horns",
+            "progression": "main",
+            "notes": "",
+            "lyrics": ""
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "No more destruction..."
+        },
+        {
+            "name": "guitar lick",
+            "progression": "main",
+            "notes": "",
+            "lyrics": ""
+        },
+        {
+            "name": "verse",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "The time to act is now..."
+        },
+        {
+            "name": "horns",
+            "progression": "main",
+            "notes": "",
+            "lyrics": ""
+        },
+        {
+            "name": "verse",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "Take care of the friends you know..."
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "No more destruction..."
+        },
+        {
+            "name": "guitar lick",
+            "progression": "main",
+            "notes": "",
+            "lyrics": ""
+        },
+        {
+            "name": "verse",
+            "progression": "main",
+            "notes": "Scribe verse. Triplet feel",
+            "lyrics": ""
+        },
+        {
+            "name": "chorus",
+            "progression": "main",
+            "notes": "",
+            "lyrics": "No more destruction..."
+        },
+        {
+            "name": "outro",
+            "progression": "main",
+            "notes": "Guitar lick + Jimmy adlibs",
+            "lyrics": ""
+        }
+    ]
+}
